@@ -1,0 +1,21 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------ navbar ------------  */
+.navbar{
+    border-bottom: 2px solid rgb(236, 234, 234);
+    padding: 2rem;
+}
+.left-menu>li>a{
+    font-size: 15px;
+    font-weight: bold;
+    /* color: red ; */
+    color: #272727 !important;
+}
+.right-menu>li>a{
+    font-weight: 100 !important;
+    color:rgb(43, 42, 42) !important;
+}
