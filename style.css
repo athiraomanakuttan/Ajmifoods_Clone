@@ -106,8 +106,8 @@ h2{
  .making-process-img-bottom
  {
   position: absolute;
-    bottom: 0;
-    right: 2rem;
+  bottom: 1rem;
+  left: -4rem;
  }
 .feature-icons p{
   color:#e2211c ;
