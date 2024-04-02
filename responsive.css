@@ -22,3 +22,10 @@
         padding: 1rem 0;
       }
 }
+@media screen and (min-width:1024px) {
+  #carouseltestimonials p{
+    font-size: 17commit px !important;
+    letter-spacing: 0.5px;
+    line-height: 2rem;
+  }
+}

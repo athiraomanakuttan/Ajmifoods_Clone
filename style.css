@@ -7,7 +7,7 @@ body
 ul{
     list-style-type: none;
 }
-h2{
+h2,h4{
    color: #e2211c;
    font-weight: 700;
 }
@@ -77,7 +77,19 @@ h2{
     font-weight: 500;
     line-height: 2rem;
  }
- .about-us h3{
+ #our-recipes
+ {
+  background-image: url(./assets//white-painted-background.jpg);
+ }
+ #our-recipes #overlay
+ {
+  z-index: -1;
+    padding: 3rem;
+    word-spacing: 1px;
+    font-weight: 500;
+    line-height: 2rem;
+ }
+ .about-us h3 {
    font-size: 2rem;
     margin: 1rem 0;
  }
@@ -116,4 +128,24 @@ h2{
 }
 .feature-icons div{
   margin-top: 1rem;
+}
+#our-recipes h3{
+  font-size: 2rem;
+   margin: 1rem 0;
+   color: #e2211c;
+}
+
+/* ------------------- testimonials styles ---------------  */
+#carouseltestimonials img{
+  width: 3rem;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(223, 223, 218);
+}
+#carouseltestimonials .carousel-control-next,#carouseltestimonials .carousel-control-prev
+{
+  background-color: gray !important;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
 }
