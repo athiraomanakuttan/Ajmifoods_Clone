@@ -7,7 +7,7 @@ body
 ul{
     list-style-type: none;
 }
-h2,h4{
+h2,h5{
    color: #e2211c;
    font-weight: 700;
 }
@@ -148,4 +148,24 @@ h2,h4{
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
+}
+.first-container,.second-container{
+  position: relative;
+}
+.first-container h1,.second-container h1
+{
+  position: absolute;
+  bottom: 0;
+  left: 56%;
+  color: #a91302;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #f32170, #e2211c, #ac1202, #ca0c03);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+.first-container h1::first-letter,.second-container h1::first-letter
+{
+font-size: 5rem;
 }
