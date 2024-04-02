@@ -17,4 +17,8 @@
       .about-us-img{
         display: none;
       }
+      .about-us #overlay
+      {
+        padding: 1rem 0;
+      }
 }

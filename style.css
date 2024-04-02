@@ -72,6 +72,7 @@ h2{
     opacity: .8;
     z-index: -1;
     padding: 3rem;
+    padding-bottom: 7rem;
     word-spacing: 1px;
     font-weight: 500;
     line-height: 2rem;
@@ -97,3 +98,22 @@ h2{
  .about-content button:hover{
    background-color: #ee2d27da;
  }
+ .making-process-img-top
+ {
+  position: relative;
+  top: -3rem;
+ }
+ .making-process-img-bottom
+ {
+  position: absolute;
+    bottom: 0;
+    right: 2rem;
+ }
+.feature-icons p{
+  color:#e2211c ;
+  font-weight: 600;
+  
+}
+.feature-icons div{
+  margin-top: 1rem;
+}
