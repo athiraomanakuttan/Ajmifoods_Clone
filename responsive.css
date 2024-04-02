@@ -3,6 +3,18 @@
         display: flex;
         justify-content: start !important;
         padding:0;
-        
      }
+     .about-us h3{
+        font-size: 1.3rem;
+         margin: 1rem 0;
+      }
+      .about-us{
+        word-spacing: 0 !important;
+    font-weight: 400;
+    line-height: 1rem;
+    text-align: left;
+      }
+      .about-us-img{
+        display: none;
+      }
 }

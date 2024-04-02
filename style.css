@@ -2,11 +2,15 @@ body
 {
     margin: 0;
     padding: 0;
+    font-family: Poppins, sans-serif;
 }
 ul{
     list-style-type: none;
 }
-
+h2{
+   color: #e2211c;
+   font-weight: 700;
+}
 /* ------------ navbar ------------  */
  .social-icons{
     display: flex;
@@ -34,4 +38,62 @@ ul{
     background: none !important;
     border: none;
 
+ }
+ .find-products
+ {
+   padding: 2rem;
+   background-image: url('/assets/products/section-bg-1.jpg');
+ }
+ .find-products p{
+   letter-spacing: 1px;
+ }
+ .product-container>div{
+   text-align: center;
+ }
+ .product-container{
+   display: flex;
+   justify-content: space-around;
+ }
+ .product-container>div>img
+ {
+   z-index: 2;
+ }
+ .product-container>div:hover{
+   background-color: #e2211c;
+   border-radius: 50%;
+ }
+ /* ------------------- About us section ----------------  */
+ .about-us{
+   background-image: url(./assets/about-us-bg.jpg);
+ }
+ .about-us #overlay{
+   background: linear-gradient(144deg, #e2211c, #e2211c 24%, #d00b03 80%);
+   color: #fff;
+    opacity: .8;
+    z-index: -1;
+    padding: 3rem;
+    word-spacing: 1px;
+    font-weight: 500;
+    line-height: 2rem;
+ }
+ .about-us h3{
+   font-size: 2rem;
+    margin: 1rem 0;
+ }
+ .about-content{
+   margin: auto;
+ }
+ .about-content button{
+   padding: 8px 41px;
+   border-radius: 0 20px 0 20px;
+    margin-top: 20px;
+    background-color: #f51711;
+    box-shadow: unset!important;
+    color: #fff;
+    border: unset;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+ .about-content button:hover{
+   background-color: #ee2d27da;
  }
